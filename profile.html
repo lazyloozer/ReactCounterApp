@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MY PORTFOLIO</title>
+	<script src="https://kit.fontawesome.com/ea6d4fec5e.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		*{
+	margin: 0%;		
+}
+body{
+	background-image:linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+}
+.myself{
+	color:white;
+	text-align: center;
+	text-decoration:none;
+
+}
+.myself:hover{
+	color: black;
+}
+.myself *{
+	line-height: 2;
+}
+.name{
+	font-size: 38px;
+}
+.myself .fa-brands,.footer i{
+	margin-left: 2%;
+}
+.spaces{
+	margin: 4% 7%;
+	padding:2% 3% 5% 3%;
+	background-color: white;
+}
+.me{
+	margin-bottom: 3%;
+}
+.information{
+	display: flex;
+}
+.information p{
+	margin-left: 3%;
+}
+.project-details{
+	display: flex;
+	justify-content: space-evenly;
+}
+.project-details>div{
+	width: 30%;
+}
+.working-year{
+	color: grey;
+	margin-top: 5%;
+}
+.company-name{
+	font-size: 20px;
+	font-weight: bold;
+}
+.company-role,.company-year{
+	color: grey;
+	margin: 2% 0%;
+	line-height: 1.7;
+}
+.college-name{
+	color: grey;
+}
+.educational-details{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+.language{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+.rating{
+	color: grey;
+	margin-left: 10%;
+}
+.social-network{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+.social-network *{
+	display: inline !important;
+	color: black;
+	text-decoration: none;
+
+
+}
+.footer{
+	color: white;
+	text-align: center;
+	line-height: 2;
+}
+@media (max-width: 1050px){
+	.about p{
+		font-size: 13px;
+	}
+}
+@media (max-width: 800px){
+	.me{
+		text-align: center;
+	}
+	.information{
+		display: block;
+		text-align: center;
+	}
+	.information p{
+		font-size: 13px;
+	}
+	.information img{
+		width: 30%;
+		height: 240px;
+	}
+}
+@media (max-width: 650px){
+	.information img{
+		height: 200px;
+	}
+	.company-role{
+		line-height: 1.4;
+		font-size: 13px;
+	}
+	.college-name{
+		margin-top: 3%;
+		font-size: 12px;
+	}
+}
+@media (max-width: 576px){
+	.information img{
+		height: 175px;
+	}
+	.information p{
+		font-size: 10px;
+	}
+}
+@media (max-width: 450px){
+	.information img{
+		height: 150px;
+	}
+	.project-name{
+		font-size: 14px;
+	}
+	.working-year{
+		font-size: 12px;
+	}
+}
+/* @media (max-width: 410px){
+	.name{
+		font-size: 25px;
+	}
+	.information img{
+		height: 130px;
+	}
+	.college-name{
+		font-size: 10px;
+	}
+	.educational-details b{
+		font-size: 12px;
+	}
+	.language p{
+		font-size: 12px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+} */
+	</style>
+</head>
+<body>
+	<section class="myself">
+		<h2 class="name">Manohar C</h2>
+		<p class="designation"> Graduate 2023 </p>
+		<p>
+			<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+			<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.github.com/"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+		</p>
+	</section>
+	<section class="about spaces">
+		<h2 class="me">About me</h2>
+		<div class="information">
+			<img src="manu.jpeg" width="12%" alt="My profile picture"/>
+			<p align="justify">
+				Im Manohar C, Im a Student Graduated  in  Bachelor of Engineering in SJC Institiution of Technology in Chickaballpur Karantaka State. Basically Im from Bagepalli Town.I Completed My Lower Degeree in Bagepalli only 10th in New horizon High School and Diploma in chickaballpur. <br/><br/>My hobbies are Watching Movie,Cricket,Gym,Music. I Graduate in Computer Science with an aggeragate of 7.8 with zero backlogs and Im working as Training in Kodnest Private Limited on Full Stack Development.<br><br>
+                <!--I am Seeking a role in a company where I can contribute my Ideas and be montored towards a Successful carrer.-->
+			</p>
+			
+		</div>
+	</section>
+	<section class="projects-section spaces">
+		<h2>Projects</h2>
+		<div class="project-details">
+			<div>
+				<img width="70%" src="credit.png" alt="project1"/>
+				<p class="project-name">Credit card faurd detection</p>
+				<p class="working-year">May 2020</p>
+			</div>
+			<div>
+				<img width="70%" src="score.jpg" alt="project2"/>
+				<p class="project-name">IPL Score Predicitor</p>
+				<p class="working-year">OCT 2022</p>
+			</div>
+			<div>
+				<img style="margin-top: 0%;" width="70%" src="heart.jpg" alt="project3"/>
+				<p class="project-name">HEART MONITIORING SYSTEM</p>
+				<p class="working-year">MAR 2023</p>
+			</div>
+		</div>		
+	</section>
+	<section class="spaces work">
+		<h2>Work</h2>
+
+        <div>
+			<p class="company-year">Training</p>
+			<p class="company-name">Kodnest</p>
+			<p class="company-role">
+        I am Pursing Training in KODNEST - India's Best Job Seekers and Training Platform on Full Stack Development and Testing.
+
+		</div>
+		<!--<div>
+			<p class="company-year">MY dream company</p>
+			<p class="company-name">TCS</p>
+			<p class="company-role">
+Tata Consultancy Services was founded in 1968 by a division of Tata Sons Ltd. Later they established TCS as a division to service their electronic data processing (EDP) requirements and provide management consulting services. Tata Sons Ltd owns 70% of TCS as of 2017.
+		</div>
+		<div>
+			<p class="company-year">plaining to join company</p>
+			<p class="company-name">Wipro</p>
+			<p class="company-role">Wipro Limited (formerly, Western India Palm Refined Oils Limited) is an Indian multinational corporation that provides information technology, consulting and business process services. Thierry Delaporte is serving as CEO and managing director of Wipro from July 2020.[4] It is headquartered in Bangalore, Karnataka.</p>
+		</div>-->
+	</section>
+	<section class="spaces">
+		<h2>Education</h2>
+		<div class="educational-details">
+			<div>
+				<p class="company-year">2010-2015</p>
+				<p><b>10th</b></p>
+				<p class="college-name">NHHS School</p>
+			</div>
+			<div>
+				<p class="company-year">2017-2020</p>
+				<p><b>DIPLOMA</b></p>
+				<p class="college-name">BGS Polytechnic</p>
+			</div>
+			<div>
+				<p class="company-year">2020-2023</p>
+				<p><b>Engineering</b></p>
+				<p class="college-name">SJCIT</p>
+			</div>
+            <div>
+				<p class="company-year">2023</p>
+				<p><b>Intern</b></p>
+				<p class="college-name">Kodnest </p>
+			</div>
+		</div>
+	</section>
+	<section class="spaces">
+		<h2>Languages</h2>
+		<div class="language">
+			<p>English<span class="rating">Bilingual</span></p>
+			<p>Kannada<span class="rating">Bilingual</span></p>
+			<p>Telugu<span class="rating">Bilingual</span></p>
+		</div>
+	</section>
+	<section class="spaces">
+		<h2>Social Network</h2>
+		<div class="social-network">
+			<p>
+				<i class="fa-brands fa-facebook"></i>
+				<a href="https://www.facebook.com/">MaNu</a>
+				<!--<span>MaNu</span>-->
+			</p>
+			<p>
+				<i class="fa fa-instagram"></i>
+				<a href="https://www.instagram.com/">Lazyloozer_08</a>
+			</p>
+			<p>
+				<i class="fa-brands fa-linkedin"></i>
+				<a href="https://www.linkedin.com/">Manohar C</a>
+				<!--<span>Manohar C</span>-->
+			</p>
+            <p>
+				<i class="fab fa-github"></i>
+				<a href="https://www.github.com/">Lazyloozer</a>
+				<!--<span >Lazyloozer</span>-->
+			</p>
+		</div>
+	</section>
+	<footer class="footer">
+		<p>&#169; All rights reserved To See My Profile</p>
+		<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+		<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+
+        <a href="https://www.github.com/"><i class="fab fa-github"></i></a>
+	</footer>
+</body>
+</html>
